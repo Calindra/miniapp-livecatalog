@@ -1,5 +1,5 @@
 module.exports = {
-    "name": "Lives Catalog",
+    "name": "livecatalog",
     "title": "Lives Catalog",
     "slug": "com.ooooo.livecatalog",
     "organization": {

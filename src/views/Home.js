@@ -19,11 +19,17 @@ export default class Home {
   };
 
   bannerClick2 = () => {
-    Ame.openMiniApp({slug: "com.ooooo.livecommerce"})
+    Ame.openBrowser({
+      url: "https://americanas.com.br",
+      openInApp: true
+    });
   };
 
   bannerClick3 = () => {
-    Ame.openMiniApp({slug: "com.ooooo.livecommerce"})
+    Ame.openBrowser({
+      url: "https://americanas.com.br",
+      openInApp: false
+    });
   };
 
 }
